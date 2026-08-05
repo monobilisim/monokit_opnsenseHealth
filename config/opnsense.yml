@@ -1,0 +1,6 @@
+# opnsenseHealth plugin configuration.
+ssl-alarm:
+  # domain of the OPNsense web UI; auto-detected when empty
+  domain: ""
+  # alarm when the certificate expires in fewer days than this
+  expiration-limit: 30
